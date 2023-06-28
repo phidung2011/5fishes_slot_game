@@ -1,0 +1,20 @@
+
+water_1.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fill
+  rotate: false
+  xy: 2, 2
+  size: 720, 255
+  orig: 720, 255
+  offset: 0, 0
+  index: -1
+waterface
+  rotate: true
+  xy: 2, 259
+  size: 720, 1560
+  orig: 720, 1560
+  offset: 0, 0
+  index: -1

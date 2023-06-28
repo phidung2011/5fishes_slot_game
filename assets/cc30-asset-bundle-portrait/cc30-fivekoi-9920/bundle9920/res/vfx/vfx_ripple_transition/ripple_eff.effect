@@ -1,0 +1,181 @@
+// Copyright (c) 2017-2020 Xiamen Yaji Software Co., Ltd.
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: sprite-vs:vert
+      frag: sprite-fs:frag
+      depthStencilState:
+        depthTest: false
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      rasterizerState:
+        cullMode: none
+      properties:
+        alphaThreshold: { value: 0.5 }
+        resolution: {value: [1.0, 1.0], target: params.xy }
+        center_coord: {value: [1.0, 1.0], target: center_coord.xy }
+          
+        speed_ripple_action: { value: 4.0 }
+        speed_ripple_hide: { value: 1.0 }
+        intensity: { value: 0.05 }
+        thick_ripple: { value: 20.0 }
+        limit_time_show: { value: 3.0 }
+        isRippleStart: { value: 0.0 , target: isRippleStart }
+        timeFromStart: { value: 0.0 , target: timeFromStart}
+}%
+
+
+CCProgram sprite-vs %{
+  precision highp float;
+  #include <cc-global>
+  #if USE_LOCAL
+    #include <cc-local>
+  #endif
+  #if SAMPLE_FROM_RT
+    #include <common>
+  #endif
+  in vec3 a_position;
+  in vec2 a_texCoord;
+  in vec4 a_color;
+
+  out vec4 color;
+  out vec2 uv0;
+
+  vec4 vert () {
+    vec4 pos = vec4(a_position, 1);
+
+    #if USE_LOCAL
+      pos = cc_matWorld * pos;
+    #endif
+
+    #if USE_PIXEL_ALIGNMENT
+      pos = cc_matView * pos;
+      pos.xyz = floor(pos.xyz);
+      pos = cc_matProj * pos;
+    #else
+      pos = cc_matViewProj * pos;
+    #endif
+
+    uv0 = a_texCoord;
+    #if SAMPLE_FROM_RT
+      CC_HANDLE_RT_SAMPLE_FLIP(uv0);
+    #endif
+    color = a_color;
+
+    return pos;
+  }
+}%
+
+CCProgram sprite-fs %{
+  precision highp float;
+  #include <embedded-alpha>
+  #include <alpha-test>
+  #include <cc-global>
+
+  uniform Constants{
+    vec2 params;
+    vec2 center_coord;
+    float speed_ripple_action;
+    float speed_ripple_hide;
+    float intensity;
+    float thick_ripple;
+    float limit_time_show;
+    float isRippleStart;
+
+    float timeFromStart;
+  };
+
+  in vec4 color;
+
+  #if USE_TEXTURE
+    in vec2 uv0;
+    #pragma builtin(local)
+    layout(set = 2, binding = 11) uniform sampler2D cc_spriteTexture;
+  #endif
+
+  vec4 originTexture (vec2 fragCoord, float alpha) {
+    vec3 col = CCSampleWithAlphaSeparated(cc_spriteTexture, fragCoord.xy).xyz;  
+    return vec4 (col, alpha);
+  }
+
+  vec4 frag () {
+    vec4 o = vec4(1, 1, 1, 1);
+
+    #if USE_TEXTURE
+
+      //variables
+      vec2 _resolution = params.xy; 
+      vec2 _centerCoord = center_coord * -1.0; 
+
+      float _speed_ripple_action = speed_ripple_action; // 4.0
+      float _speed_ripple_hide = speed_ripple_hide; // 1.0
+      float _intensity = intensity; // 0.05
+      float _thick_ripple = thick_ripple; // 20.0
+      float _limit_time_show = limit_time_show; // 3.0
+      float _isRippleStart = isRippleStart;
+
+      float _waiting_time = 0.0;
+      float _speed_fade_out = 0.1;
+
+      vec2 fragCoord = uv0;
+
+      // check start
+      if (_isRippleStart <= 0.0) {
+          return originTexture(fragCoord, 1.0);
+      }
+     
+      float time = timeFromStart;
+      vec2 p = ( _centerCoord + fragCoord.xy) / _resolution.xy;
+      float cLength = length(p); 
+
+      // wait
+      if(time < _waiting_time) {
+        return originTexture(fragCoord, 1.0);
+      }
+
+      // hide
+      float _bottomValue = _limit_time_show + cLength / _speed_ripple_hide;
+      if (_bottomValue < time) {     
+          return originTexture(fragCoord, 0.0);
+      }
+      
+      // show: ripple eff
+      if(time - _waiting_time > cLength) {
+        vec2 uv= fragCoord.xy +(p/cLength) * cos(cLength * _thick_ripple - time * _speed_ripple_action) * _intensity;
+        vec3 col = smoothstep(0.1, 0.91, CCSampleWithAlphaSeparated(cc_spriteTexture, uv).xyz);
+
+        if (_bottomValue < time + _speed_fade_out) {
+          // fade out
+          float offset = _bottomValue - time;
+          o = vec4(col, offset/_speed_fade_out);
+          return o;
+        }
+
+      // fade in
+        float opacity_fade_in = 1.0 - (cLength/ (time - _waiting_time));
+        // o = vec4(col, opacity_fade_in + time/_limit_time_show); 
+        o = vec4(col, 1); 
+
+        return o;
+      }
+      
+      // draw: origin texture 
+      vec3 col = CCSampleWithAlphaSeparated(cc_spriteTexture, fragCoord.xy).xyz;      
+      o = vec4 (col, 1.0);
+
+      #if IS_GRAY
+        float gray  = 0.2126 * o.r + 0.7152 * o.g + 0.0722 * o.b;
+        o.r = o.g = o.b = gray;
+      #endif
+    #endif
+
+    o *= color;
+    ALPHA_TEST(o);
+    return o;
+  }
+}%

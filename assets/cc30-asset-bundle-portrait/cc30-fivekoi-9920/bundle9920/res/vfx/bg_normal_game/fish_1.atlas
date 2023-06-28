@@ -1,0 +1,76 @@
+
+fish_1.png
+size: 891,356
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+koi/koi_1
+  rotate: false
+  xy: 752, 128
+  size: 78, 226
+  orig: 78, 226
+  offset: 0, 0
+  index: -1
+koi/koi_1_shadow
+  rotate: false
+  xy: 663, 120
+  size: 87, 234
+  orig: 87, 234
+  offset: 0, 0
+  index: -1
+koi/koi_1_water
+  rotate: true
+  xy: 663, 40
+  size: 78, 226
+  orig: 78, 226
+  offset: 0, 0
+  index: -1
+trail/_0021_378
+  rotate: false
+  xy: 373, 69
+  size: 56, 285
+  orig: 56, 285
+  offset: 0, 0
+  index: -1
+trail/_0023_376
+  rotate: false
+  xy: 431, 69
+  size: 56, 285
+  orig: 56, 285
+  offset: 0, 0
+  index: -1
+trail/_0025_374
+  rotate: false
+  xy: 489, 69
+  size: 56, 285
+  orig: 56, 285
+  offset: 0, 0
+  index: -1
+trail/_0027_372
+  rotate: false
+  xy: 547, 69
+  size: 56, 285
+  orig: 56, 285
+  offset: 0, 0
+  index: -1
+trail/_0029_370
+  rotate: false
+  xy: 605, 69
+  size: 56, 285
+  orig: 56, 285
+  offset: 0, 0
+  index: -1
+trail/_0039_360
+  rotate: true
+  xy: 373, 11
+  size: 56, 285
+  orig: 56, 285
+  offset: 0, 0
+  index: -1
+water_ripple_effect
+  rotate: false
+  xy: 2, 2
+  size: 369, 352
+  orig: 418, 418
+  offset: 24, 34
+  index: -1

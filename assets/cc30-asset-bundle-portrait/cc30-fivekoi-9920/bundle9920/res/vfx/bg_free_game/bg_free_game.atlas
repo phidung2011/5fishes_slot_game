@@ -1,0 +1,209 @@
+
+bg_free_game.png
+size: 1869,725
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_free/wave
+  rotate: true
+  xy: 1532, 291
+  size: 433, 336
+  orig: 445, 363
+  offset: 4, 12
+  index: -1
+bot/_0014_bot13
+  rotate: false
+  xy: 1, 1
+  size: 202, 39
+  orig: 202, 58
+  offset: 0, 9
+  index: -1
+bot/_0015_bot12
+  rotate: false
+  xy: 204, 1
+  size: 202, 39
+  orig: 202, 58
+  offset: 0, 9
+  index: -1
+bot/_0016_bot11
+  rotate: false
+  xy: 407, 1
+  size: 202, 39
+  orig: 202, 58
+  offset: 0, 9
+  index: -1
+bot/_0017_bot10
+  rotate: false
+  xy: 610, 2
+  size: 202, 39
+  orig: 202, 58
+  offset: 0, 9
+  index: -1
+bot/_0018_bot9
+  rotate: false
+  xy: 610, 2
+  size: 202, 39
+  orig: 202, 58
+  offset: 0, 9
+  index: -1
+bot/_0019_bot8
+  rotate: false
+  xy: 813, 2
+  size: 202, 39
+  orig: 202, 58
+  offset: 0, 9
+  index: -1
+bot/_0020_bot7
+  rotate: false
+  xy: 1016, 2
+  size: 202, 39
+  orig: 202, 58
+  offset: 0, 9
+  index: -1
+bot/_0021_bot6
+  rotate: false
+  xy: 1219, 6
+  size: 202, 39
+  orig: 202, 58
+  offset: 0, 9
+  index: -1
+bot/_0022_bot5
+  rotate: false
+  xy: 1422, 6
+  size: 202, 39
+  orig: 202, 58
+  offset: 0, 9
+  index: -1
+bot/_0023_bot4
+  rotate: false
+  xy: 1625, 251
+  size: 202, 39
+  orig: 202, 58
+  offset: 0, 9
+  index: -1
+bot/_0024_bot3
+  rotate: true
+  xy: 1828, 88
+  size: 202, 39
+  orig: 202, 58
+  offset: 0, 9
+  index: -1
+bot/_0025_bot2
+  rotate: false
+  xy: 1625, 211
+  size: 202, 39
+  orig: 202, 58
+  offset: 0, 9
+  index: -1
+bot/_0026_bot1
+  rotate: false
+  xy: 1625, 171
+  size: 202, 39
+  orig: 202, 58
+  offset: 0, 9
+  index: -1
+bot/_0027_bot0
+  rotate: false
+  xy: 1625, 171
+  size: 202, 39
+  orig: 202, 58
+  offset: 0, 9
+  index: -1
+fx_water_fall/bg_free_0
+  rotate: true
+  xy: 537, 42
+  size: 140, 534
+  orig: 360, 780
+  offset: 119, 115
+  index: -1
+fx_water_fall/bg_free_10
+  rotate: false
+  xy: 836, 184
+  size: 138, 540
+  orig: 360, 780
+  offset: 119, 115
+  index: -1
+fx_water_fall/bg_free_12
+  rotate: false
+  xy: 419, 183
+  size: 138, 541
+  orig: 360, 780
+  offset: 119, 115
+  index: -1
+fx_water_fall/bg_free_14
+  rotate: false
+  xy: 558, 183
+  size: 138, 541
+  orig: 360, 780
+  offset: 119, 115
+  index: -1
+fx_water_fall/bg_free_16
+  rotate: false
+  xy: 1, 182
+  size: 138, 542
+  orig: 360, 780
+  offset: 119, 115
+  index: -1
+fx_water_fall/bg_free_18
+  rotate: false
+  xy: 140, 182
+  size: 138, 542
+  orig: 360, 780
+  offset: 119, 115
+  index: -1
+fx_water_fall/bg_free_2
+  rotate: false
+  xy: 1393, 190
+  size: 138, 534
+  orig: 360, 780
+  offset: 119, 115
+  index: -1
+fx_water_fall/bg_free_20
+  rotate: false
+  xy: 697, 183
+  size: 138, 541
+  orig: 360, 780
+  offset: 119, 115
+  index: -1
+fx_water_fall/bg_free_22
+  rotate: false
+  xy: 279, 183
+  size: 139, 541
+  orig: 360, 780
+  offset: 119, 115
+  index: -1
+fx_water_fall/bg_free_24
+  rotate: false
+  xy: 975, 185
+  size: 139, 539
+  orig: 360, 780
+  offset: 119, 115
+  index: -1
+fx_water_fall/bg_free_28
+  rotate: true
+  xy: 1, 41
+  size: 140, 535
+  orig: 360, 780
+  offset: 119, 115
+  index: -1
+fx_water_fall/bg_free_4
+  rotate: false
+  xy: 1254, 189
+  size: 138, 535
+  orig: 360, 780
+  offset: 119, 115
+  index: -1
+fx_water_fall/bg_free_6
+  rotate: false
+  xy: 1115, 186
+  size: 138, 538
+  orig: 360, 780
+  offset: 119, 115
+  index: -1
+fx_water_fall/bg_free_8
+  rotate: true
+  xy: 1072, 46
+  size: 138, 539
+  orig: 360, 780
+  offset: 119, 115
+  index: -1

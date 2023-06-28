@@ -1,0 +1,20 @@
+
+fish_child.png
+size: 444,499
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fish_fish_ground_shadow
+  rotate: false
+  xy: 2, 2
+  size: 219, 495
+  orig: 219, 495
+  offset: 0, 0
+  index: -1
+fish_ground
+  rotate: false
+  xy: 223, 2
+  size: 219, 495
+  orig: 219, 495
+  offset: 0, 0
+  index: -1

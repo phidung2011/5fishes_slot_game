@@ -1,0 +1,6 @@
+export enum SLOT_GAME_STATE {
+    IDLE = 0,
+    SPINING,
+    SHOW_RESULT,
+    CANCEL_SHOW_RESULT,
+}

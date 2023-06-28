@@ -1,0 +1,41 @@
+
+gold.png
+size: 656,266
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Flash20
+  rotate: false
+  xy: 270, 11
+  size: 256, 253
+  orig: 256, 253
+  offset: 0, 0
+  index: -1
+coin_3
+  rotate: true
+  xy: 602, 36
+  size: 113, 52
+  orig: 113, 52
+  offset: 0, 0
+  index: -1
+glow
+  rotate: true
+  xy: 528, 21
+  size: 128, 72
+  orig: 128, 72
+  offset: 0, 0
+  index: -1
+light_dust
+  rotate: false
+  xy: 528, 151
+  size: 120, 113
+  orig: 128, 128
+  offset: 0, 8
+  index: -1
+ring
+  rotate: true
+  xy: 2, 2
+  size: 262, 266
+  orig: 262, 266
+  offset: 0, 0
+  index: -1

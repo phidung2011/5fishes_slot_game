@@ -1,0 +1,55 @@
+
+6.png
+size: 331,281
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+6/base
+  rotate: true
+  xy: 215, 2
+  size: 97, 85
+  orig: 99, 87
+  offset: 1, 1
+  index: -1
+6/flower_1
+  rotate: false
+  xy: 2, 2
+  size: 109, 90
+  orig: 111, 92
+  offset: 1, 1
+  index: -1
+6/flower_glow
+  rotate: false
+  xy: 180, 154
+  size: 149, 125
+  orig: 151, 127
+  offset: 1, 1
+  index: -1
+6/leaf_1
+  rotate: true
+  xy: 229, 111
+  size: 41, 36
+  orig: 43, 38
+  offset: 1, 1
+  index: -1
+6/leaf_2
+  rotate: true
+  xy: 180, 101
+  size: 51, 47
+  orig: 53, 49
+  offset: 1, 1
+  index: -1
+6/shadow
+  rotate: false
+  xy: 113, 4
+  size: 100, 88
+  orig: 102, 90
+  offset: 1, 1
+  index: -1
+6/water_ripple_effect
+  rotate: true
+  xy: 2, 94
+  size: 185, 176
+  orig: 209, 209
+  offset: 12, 17
+  index: -1

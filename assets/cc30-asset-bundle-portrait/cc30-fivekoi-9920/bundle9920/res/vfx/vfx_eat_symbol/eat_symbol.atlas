@@ -1,0 +1,167 @@
+
+eat_symbol.png
+size: 1853,1225
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1/0
+  rotate: false
+  xy: 2, 908
+  size: 298, 315
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/20
+  rotate: false
+  xy: 2, 908
+  size: 298, 315
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/1
+  rotate: false
+  xy: 2, 591
+  size: 298, 315
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/10
+  rotate: true
+  xy: 1219, 925
+  size: 298, 315
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/11
+  rotate: true
+  xy: 1536, 925
+  size: 298, 315
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/12
+  rotate: false
+  xy: 902, 608
+  size: 298, 315
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/13
+  rotate: false
+  xy: 1502, 309
+  size: 298, 314
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/14
+  rotate: true
+  xy: 1519, 9
+  size: 298, 314
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/15
+  rotate: false
+  xy: 902, 291
+  size: 298, 315
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/16
+  rotate: true
+  xy: 1202, 625
+  size: 298, 315
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/17
+  rotate: true
+  xy: 1519, 625
+  size: 298, 315
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/18
+  rotate: false
+  xy: 1202, 308
+  size: 298, 315
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/19
+  rotate: true
+  xy: 1202, 8
+  size: 298, 315
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/2
+  rotate: false
+  xy: 2, 274
+  size: 298, 315
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/3
+  rotate: false
+  xy: 302, 908
+  size: 298, 315
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/4
+  rotate: false
+  xy: 302, 591
+  size: 298, 315
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/5
+  rotate: false
+  xy: 302, 274
+  size: 298, 315
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/6
+  rotate: false
+  xy: 602, 908
+  size: 298, 315
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/7
+  rotate: false
+  xy: 602, 591
+  size: 298, 315
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/8
+  rotate: false
+  xy: 602, 274
+  size: 298, 315
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+1/9
+  rotate: true
+  xy: 902, 925
+  size: 298, 315
+  orig: 298, 315
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 2, 2
+  size: 270, 270
+  orig: 270, 270
+  offset: 0, 0
+  index: -1
+partical/par_0018_0
+  rotate: false
+  xy: 274, 92
+  size: 178, 180
+  orig: 222, 222
+  offset: 44, 34
+  index: -1

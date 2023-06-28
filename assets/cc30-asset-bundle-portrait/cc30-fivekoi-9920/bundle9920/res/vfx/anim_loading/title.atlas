@@ -1,0 +1,34 @@
+
+title.png
+size: 799,458
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+acc_1
+  rotate: false
+  xy: 582, 39
+  size: 98, 76
+  orig: 98, 76
+  offset: 0, 0
+  index: -1
+board_logo
+  rotate: false
+  xy: 460, 117
+  size: 337, 339
+  orig: 337, 339
+  offset: 0, 0
+  index: -1
+light_dust
+  rotate: false
+  xy: 460, 2
+  size: 120, 113
+  orig: 128, 128
+  offset: 0, 8
+  index: -1
+text_logo
+  rotate: true
+  xy: 2, 13
+  size: 443, 456
+  orig: 443, 456
+  offset: 0, 0
+  index: -1

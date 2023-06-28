@@ -1,0 +1,20 @@
+
+9.png
+size: 213,109
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+9/Q
+  rotate: true
+  xy: 127, 5
+  size: 102, 84
+  orig: 172, 142
+  offset: 35, 29
+  index: -1
+9/Q_glow
+  rotate: false
+  xy: 2, 2
+  size: 123, 105
+  orig: 172, 142
+  offset: 24, 19
+  index: -1

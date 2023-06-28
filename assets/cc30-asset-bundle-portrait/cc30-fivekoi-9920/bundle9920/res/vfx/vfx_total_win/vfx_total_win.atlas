@@ -1,0 +1,167 @@
+
+vfx_total_win.png
+size: 2036,752
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Border_info_1
+  rotate: true
+  xy: 336, 56
+  size: 694, 82
+  orig: 694, 82
+  offset: 0, 0
+  index: -1
+Border_info_2
+  rotate: true
+  xy: 119, 30
+  size: 720, 95
+  orig: 720, 95
+  offset: 0, 0
+  index: -1
+Border_info_3
+  rotate: true
+  xy: 2, 30
+  size: 720, 115
+  orig: 720, 115
+  offset: 0, 0
+  index: -1
+Firework_04
+  rotate: false
+  xy: 1441, 385
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+fx/_0000_29
+  rotate: false
+  xy: 1441, 643
+  size: 590, 107
+  orig: 672, 178
+  offset: 60, 61
+  index: -1
+fx/_0002_27
+  rotate: true
+  xy: 1723, 27
+  size: 614, 116
+  orig: 672, 178
+  offset: 58, 62
+  index: -1
+fx/_0004_25
+  rotate: true
+  xy: 420, 88
+  size: 662, 115
+  orig: 672, 178
+  offset: 10, 63
+  index: -1
+fx/_0006_23
+  rotate: true
+  xy: 537, 89
+  size: 661, 112
+  orig: 672, 178
+  offset: 10, 64
+  index: -1
+fx/_0008_21
+  rotate: true
+  xy: 651, 92
+  size: 658, 108
+  orig: 672, 178
+  offset: 11, 64
+  index: -1
+fx/_0010_19
+  rotate: true
+  xy: 761, 92
+  size: 658, 104
+  orig: 672, 178
+  offset: 11, 64
+  index: -1
+fx/_0012_17
+  rotate: true
+  xy: 867, 94
+  size: 656, 99
+  orig: 672, 178
+  offset: 12, 64
+  index: -1
+fx/_0014_15
+  rotate: true
+  xy: 968, 96
+  size: 654, 95
+  orig: 672, 178
+  offset: 13, 62
+  index: -1
+fx/_0016_13
+  rotate: true
+  xy: 1065, 98
+  size: 652, 93
+  orig: 672, 178
+  offset: 14, 58
+  index: -1
+fx/_0018_11
+  rotate: true
+  xy: 1259, 100
+  size: 650, 88
+  orig: 672, 178
+  offset: 16, 54
+  index: -1
+fx/_0020_9
+  rotate: true
+  xy: 1160, 99
+  size: 651, 97
+  orig: 672, 178
+  offset: 15, 35
+  index: -1
+fx/_0022_7
+  rotate: false
+  xy: 1070, 2
+  size: 651, 94
+  orig: 672, 178
+  offset: 15, 26
+  index: -1
+fx/_0024_5
+  rotate: true
+  xy: 1349, 101
+  size: 649, 90
+  orig: 672, 178
+  offset: 16, 16
+  index: -1
+fx/_0026_3
+  rotate: false
+  xy: 420, 2
+  size: 648, 84
+  orig: 672, 178
+  offset: 16, 6
+  index: -1
+fx/_0028_1
+  rotate: true
+  xy: 1841, 45
+  size: 596, 62
+  orig: 672, 178
+  offset: 17, 2
+  index: -1
+glow123
+  rotate: true
+  xy: 216, 34
+  size: 716, 118
+  orig: 716, 118
+  offset: 0, 0
+  index: -1
+lens
+  rotate: false
+  xy: 1441, 274
+  size: 256, 109
+  orig: 256, 109
+  offset: 0, 0
+  index: -1
+lensflare
+  rotate: false
+  xy: 1441, 176
+  size: 256, 96
+  orig: 256, 96
+  offset: 0, 0
+  index: -1
+lightray3
+  rotate: false
+  xy: 2, 4
+  size: 128, 24
+  orig: 128, 24
+  offset: 0, 0
+  index: -1

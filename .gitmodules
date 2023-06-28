@@ -1,0 +1,9 @@
+[submodule "assets/cc-common"]
+	path = assets/cc-common
+	url = ../sub-cc-common.git
+[submodule "assets/cc-slot-common"]
+	path = assets/cc-slot-common
+	url = ../sub-cc-slot-common.git
+[submodule "assets/ext-framework"]
+	path = assets/ext-framework
+	url = ../sub-ext-framework.git

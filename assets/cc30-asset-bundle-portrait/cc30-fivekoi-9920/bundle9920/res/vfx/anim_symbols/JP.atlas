@@ -1,0 +1,83 @@
+
+JP.png
+size: 507,278
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+JP/base
+  rotate: false
+  xy: 320, 153
+  size: 121, 123
+  orig: 123, 125
+  offset: 1, 1
+  index: -1
+JP/dragon
+  rotate: true
+  xy: 443, 143
+  size: 133, 62
+  orig: 133, 62
+  offset: 0, 0
+  index: -1
+JP/dragon_glow
+  rotate: false
+  xy: 189, 64
+  size: 151, 78
+  orig: 151, 78
+  offset: 0, 0
+  index: -1
+JP/fish
+  rotate: true
+  xy: 444, 43
+  size: 98, 42
+  orig: 98, 42
+  offset: 0, 0
+  index: -1
+JP/fish_glow
+  rotate: false
+  xy: 175, 2
+  size: 115, 60
+  orig: 115, 60
+  offset: 0, 0
+  index: -1
+JP/flash
+  rotate: false
+  xy: 189, 144
+  size: 129, 132
+  orig: 131, 134
+  offset: 1, 1
+  index: -1
+JP/jackpot
+  rotate: false
+  xy: 292, 5
+  size: 150, 57
+  orig: 152, 59
+  offset: 1, 1
+  index: -1
+JP/jackpot_glow
+  rotate: false
+  xy: 2, 21
+  size: 171, 77
+  orig: 171, 77
+  offset: 0, 0
+  index: -1
+JP/light_add
+  rotate: false
+  xy: 444, 15
+  size: 25, 26
+  orig: 25, 26
+  offset: 0, 0
+  index: -1
+JP/light_dust
+  rotate: false
+  xy: 342, 77
+  size: 79, 74
+  orig: 79, 74
+  offset: 0, 0
+  index: -1
+JP/water_ripple_effect
+  rotate: false
+  xy: 2, 100
+  size: 185, 176
+  orig: 209, 209
+  offset: 12, 17
+  index: -1

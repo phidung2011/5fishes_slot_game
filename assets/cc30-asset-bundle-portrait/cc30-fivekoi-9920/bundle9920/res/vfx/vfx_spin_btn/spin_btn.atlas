@@ -1,0 +1,160 @@
+
+spin_btn.png
+size: 1648,440
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bt_spin_1
+  rotate: false
+  xy: 1261, 288
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+crop/_0000_19
+  rotate: true
+  xy: 431, 201
+  size: 237, 226
+  orig: 237, 226
+  offset: 0, 0
+  index: -1
+crop/_0001_18
+  rotate: true
+  xy: 659, 209
+  size: 229, 218
+  orig: 237, 226
+  offset: 4, 4
+  index: -1
+crop/_0002_17
+  rotate: true
+  xy: 879, 217
+  size: 221, 211
+  orig: 237, 226
+  offset: 8, 8
+  index: -1
+crop/_0003_16
+  rotate: false
+  xy: 822, 4
+  size: 212, 203
+  orig: 237, 226
+  offset: 12, 12
+  index: -1
+crop/_0004_15
+  rotate: false
+  xy: 431, 5
+  size: 202, 194
+  orig: 237, 226
+  offset: 17, 17
+  index: -1
+crop/_0005_14
+  rotate: true
+  xy: 635, 7
+  size: 192, 185
+  orig: 237, 226
+  offset: 22, 22
+  index: -1
+crop/_0006_13
+  rotate: true
+  xy: 1036, 33
+  size: 182, 176
+  orig: 237, 226
+  offset: 27, 26
+  index: -1
+crop/_0007_12
+  rotate: true
+  xy: 1092, 266
+  size: 172, 167
+  orig: 237, 226
+  offset: 32, 31
+  index: -1
+crop/_0008_11
+  rotate: true
+  xy: 1214, 104
+  size: 160, 156
+  orig: 237, 226
+  offset: 38, 37
+  index: -1
+crop/_0009_10
+  rotate: true
+  xy: 1372, 137
+  size: 149, 146
+  orig: 237, 226
+  offset: 43, 42
+  index: -1
+crop/_0010_9
+  rotate: true
+  xy: 1413, 301
+  size: 137, 135
+  orig: 237, 226
+  offset: 49, 48
+  index: -1
+crop/_0011_8
+  rotate: false
+  xy: 1520, 176
+  size: 125, 123
+  orig: 237, 226
+  offset: 55, 54
+  index: -1
+crop/_0012_7
+  rotate: false
+  xy: 1532, 63
+  size: 113, 111
+  orig: 237, 226
+  offset: 61, 60
+  index: -1
+crop/_0013_6
+  rotate: false
+  xy: 1214, 3
+  size: 99, 99
+  orig: 237, 226
+  offset: 68, 66
+  index: -1
+crop/_0014_5
+  rotate: false
+  xy: 1315, 16
+  size: 85, 86
+  orig: 237, 226
+  offset: 75, 72
+  index: -1
+crop/_0015_4
+  rotate: true
+  xy: 1550, 367
+  size: 71, 74
+  orig: 237, 226
+  offset: 82, 78
+  index: -1
+crop/_0016_3
+  rotate: true
+  xy: 1532, 5
+  size: 56, 60
+  orig: 237, 226
+  offset: 89, 84
+  index: -1
+crop/_0017_2
+  rotate: false
+  xy: 1092, 217
+  size: 42, 47
+  orig: 237, 226
+  offset: 96, 90
+  index: -1
+crop/_0018_1
+  rotate: true
+  xy: 1036, 2
+  size: 29, 32
+  orig: 237, 226
+  offset: 104, 97
+  index: -1
+ring_distortion
+  rotate: false
+  xy: 1402, 7
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+spin
+  rotate: false
+  xy: 2, 11
+  size: 427, 427
+  orig: 427, 427
+  offset: 0, 0
+  index: -1

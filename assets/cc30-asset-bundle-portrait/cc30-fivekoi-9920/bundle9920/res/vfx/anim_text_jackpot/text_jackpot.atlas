@@ -1,0 +1,41 @@
+
+text_jackpot.png
+size: 392,522
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Group 47
+  rotate: false
+  xy: 2, 267
+  size: 354, 253
+  orig: 354, 253
+  offset: 0, 0
+  index: -1
+Layer 80
+  rotate: false
+  xy: 2, 14
+  size: 251, 251
+  orig: 251, 251
+  offset: 0, 0
+  index: -1
+light_ray
+  rotate: false
+  xy: 2, 2
+  size: 123, 10
+  orig: 123, 10
+  offset: 0, 0
+  index: -1
+spark
+  rotate: false
+  xy: 358, 488
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+tex_jaclpot
+  rotate: true
+  xy: 255, 17
+  size: 248, 111
+  orig: 248, 111
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,13 @@
+
+lotus.png
+size: 649,435
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lotus
+  rotate: false
+  xy: 2, 2
+  size: 645, 431
+  orig: 647, 433
+  offset: 1, 1
+  index: -1

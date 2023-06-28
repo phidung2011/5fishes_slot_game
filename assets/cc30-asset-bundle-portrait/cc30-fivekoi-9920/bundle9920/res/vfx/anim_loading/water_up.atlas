@@ -1,0 +1,55 @@
+
+water_up.png
+size: 1187,1034
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+loading/bubble
+  rotate: false
+  xy: 1001, 391
+  size: 151, 142
+  orig: 152, 150
+  offset: 0, 0
+  index: -1
+loading/water_face_1/water_1_1
+  rotate: false
+  xy: 2, 535
+  size: 1183, 233
+  orig: 1183, 233
+  offset: 0, 0
+  index: -1
+loading/water_face_1/water_1_2
+  rotate: false
+  xy: 2, 28
+  size: 1160, 40
+  orig: 1160, 40
+  offset: 0, 0
+  index: -1
+loading/water_face_1/water_1_light
+  rotate: false
+  xy: 2, 301
+  size: 997, 232
+  orig: 997, 232
+  offset: 0, 0
+  index: -1
+loading/water_face_2/light
+  rotate: false
+  xy: 2, 70
+  size: 942, 229
+  orig: 942, 229
+  offset: 0, 0
+  index: -1
+loading/water_face_2/water_2
+  rotate: false
+  xy: 2, 770
+  size: 1160, 262
+  orig: 1160, 262
+  offset: 0, 0
+  index: -1
+loading/water_face_2/water_2_1
+  rotate: false
+  xy: 2, 2
+  size: 1160, 24
+  orig: 1160, 24
+  offset: 0, 0
+  index: -1

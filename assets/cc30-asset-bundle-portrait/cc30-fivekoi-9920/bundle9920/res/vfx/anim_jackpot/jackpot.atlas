@@ -1,0 +1,125 @@
+
+jackpot.png
+size: 1699,904
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_JP/cloud_1
+  rotate: false
+  xy: 1022, 479
+  size: 175, 213
+  orig: 177, 215
+  offset: 1, 1
+  index: -1
+bg_JP/cloud_2
+  rotate: true
+  xy: 1199, 480
+  size: 212, 201
+  orig: 214, 203
+  offset: 1, 1
+  index: -1
+bg_JP/cloud_3
+  rotate: false
+  xy: 1223, 198
+  size: 464, 255
+  orig: 1130, 264
+  offset: 330, 8
+  index: -1
+bg_JP/cloud_4
+  rotate: true
+  xy: 622, 15
+  size: 677, 280
+  orig: 679, 282
+  offset: 1, 1
+  index: -1
+bg_JP/cloud_center
+  rotate: true
+  xy: 2, 13
+  size: 679, 618
+  orig: 681, 620
+  offset: 1, 1
+  index: -1
+bg_JP/gate_2
+  rotate: true
+  xy: 904, 87
+  size: 366, 317
+  orig: 366, 317
+  offset: 0, 0
+  index: -1
+bg_JP/light_add
+  rotate: true
+  xy: 1656, 811
+  size: 23, 24
+  orig: 25, 26
+  offset: 1, 1
+  index: -1
+dragon_1/Layer 6
+  rotate: true
+  xy: 1656, 836
+  size: 66, 28
+  orig: 68, 30
+  offset: 1, 1
+  index: -1
+dragon_1/beard_all
+  rotate: true
+  xy: 904, 456
+  size: 236, 116
+  orig: 236, 116
+  offset: 0, 0
+  index: -1
+dragon_1/beard_front
+  rotate: true
+  xy: 1656, 455
+  size: 354, 16
+  orig: 354, 16
+  offset: 0, 0
+  index: -1
+dragon_1/beard_front_2
+  rotate: true
+  xy: 1682, 480
+  size: 354, 15
+  orig: 354, 15
+  offset: 0, 0
+  index: -1
+dragon_1/body
+  rotate: false
+  xy: 2, 799
+  size: 1652, 103
+  orig: 1652, 103
+  offset: 0, 0
+  index: -1
+dragon_1/head
+  rotate: false
+  xy: 1223, 2
+  size: 219, 194
+  orig: 219, 194
+  offset: 0, 0
+  index: -1
+dragon_1/leg_2
+  rotate: false
+  xy: 1402, 532
+  size: 120, 160
+  orig: 120, 160
+  offset: 0, 0
+  index: -1
+dragon_2/body
+  rotate: false
+  xy: 2, 694
+  size: 1652, 103
+  orig: 1652, 103
+  offset: 0, 0
+  index: -1
+dragon_2/head
+  rotate: false
+  xy: 1444, 2
+  size: 219, 194
+  orig: 219, 194
+  offset: 0, 0
+  index: -1
+dragon_2/leg_2
+  rotate: false
+  xy: 1524, 532
+  size: 120, 160
+  orig: 120, 160
+  offset: 0, 0
+  index: -1

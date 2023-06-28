@@ -1,0 +1,13 @@
+
+vfx_select_koi.png
+size: 506,506
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 80
+  rotate: false
+  xy: 2, 2
+  size: 502, 502
+  orig: 502, 502
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+vfx_lotus.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Group 1
+  rotate: false
+  xy: 2, 464
+  size: 566, 546
+  orig: 566, 546
+  offset: 0, 0
+  index: -1
+icon
+  rotate: false
+  xy: 2, 270
+  size: 256, 192
+  orig: 256, 192
+  offset: 0, 0
+  index: -1
+koi/fx_koi_1
+  rotate: false
+  xy: 570, 744
+  size: 121, 266
+  orig: 121, 266
+  offset: 0, 0
+  index: -1
+koi/fx_koi_2
+  rotate: false
+  xy: 2, 2
+  size: 121, 266
+  orig: 121, 266
+  offset: 0, 0
+  index: -1
+lens
+  rotate: false
+  xy: 260, 353
+  size: 256, 109
+  orig: 256, 109
+  offset: 0, 0
+  index: -1

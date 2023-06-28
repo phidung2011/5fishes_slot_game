@@ -1,0 +1,20 @@
+
+B.png
+size: 146,116
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B/J
+  rotate: false
+  xy: 84, 23
+  size: 60, 91
+  orig: 100, 151
+  offset: 20, 30
+  index: -1
+B/J_glow
+  rotate: false
+  xy: 2, 2
+  size: 80, 112
+  orig: 100, 151
+  offset: 10, 20
+  index: -1

@@ -1,0 +1,13 @@
+
+water_2.png
+size: 679,1204
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+water_pool
+  rotate: false
+  xy: 2, 2
+  size: 675, 1200
+  orig: 675, 1200
+  offset: 0, 0
+  index: -1

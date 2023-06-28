@@ -1,0 +1,13 @@
+
+gold_eat.png
+size: 454,196
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lens
+  rotate: false
+  xy: 2, 2
+  size: 450, 192
+  orig: 450, 192
+  offset: 0, 0
+  index: -1

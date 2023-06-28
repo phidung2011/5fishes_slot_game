@@ -1,0 +1,13 @@
+
+vfx_gate.png
+size: 132,132
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+90.jpg
+  rotate: false
+  xy: 2, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

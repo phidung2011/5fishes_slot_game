@@ -1,0 +1,69 @@
+
+fish_choose_wild.png
+size: 994,222
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fish_choose_win/2
+  rotate: false
+  xy: 960, 128
+  size: 19, 18
+  orig: 19, 18
+  offset: 0, 0
+  index: -1
+fish_choose_win/5
+  rotate: false
+  xy: 702, 75
+  size: 23, 21
+  orig: 23, 21
+  offset: 0, 0
+  index: -1
+fish_choose_win/Layer 1
+  rotate: true
+  xy: 1, 1
+  size: 220, 536
+  orig: 220, 536
+  offset: 0, 0
+  index: -1
+fish_choose_win/acc
+  rotate: true
+  xy: 889, 96
+  size: 50, 70
+  orig: 52, 72
+  offset: 1, 1
+  index: -1
+fish_choose_win/body
+  rotate: true
+  xy: 538, 147
+  size: 74, 455
+  orig: 74, 455
+  offset: 0, 0
+  index: -1
+fish_choose_win/rau_2
+  rotate: true
+  xy: 538, 49
+  size: 47, 163
+  orig: 47, 163
+  offset: 0, 0
+  index: -1
+fish_choose_win/tiles
+  rotate: true
+  xy: 538, 97
+  size: 49, 276
+  orig: 49, 276
+  offset: 0, 0
+  index: -1
+fish_choose_win/vay_1
+  rotate: false
+  xy: 538, 3
+  size: 30, 45
+  orig: 30, 45
+  offset: 0, 0
+  index: -1
+fish_choose_win/vay_3
+  rotate: false
+  xy: 815, 86
+  size: 73, 60
+  orig: 73, 60
+  offset: 0, 0
+  index: -1

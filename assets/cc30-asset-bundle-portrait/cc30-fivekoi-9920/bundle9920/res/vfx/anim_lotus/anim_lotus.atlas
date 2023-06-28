@@ -1,0 +1,97 @@
+
+anim_lotus.png
+size: 515,269
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lotus/Layer 1
+  rotate: true
+  xy: 260, 26
+  size: 81, 53
+  orig: 83, 55
+  offset: 1, 1
+  index: -1
+Lotus/Layer 10
+  rotate: true
+  xy: 455, 7
+  size: 67, 58
+  orig: 69, 60
+  offset: 1, 1
+  index: -1
+Lotus/Layer 11
+  rotate: true
+  xy: 317, 63
+  size: 63, 71
+  orig: 65, 73
+  offset: 1, 1
+  index: -1
+Lotus/Layer 2
+  rotate: false
+  xy: 341, 128
+  size: 77, 65
+  orig: 79, 67
+  offset: 1, 1
+  index: -1
+Lotus/Layer 3
+  rotate: true
+  xy: 341, 195
+  size: 72, 77
+  orig: 74, 79
+  offset: 1, 1
+  index: -1
+Lotus/Layer 4
+  rotate: true
+  xy: 260, 109
+  size: 82, 55
+  orig: 84, 57
+  offset: 1, 1
+  index: -1
+Lotus/Layer 5
+  rotate: true
+  xy: 315, 2
+  size: 59, 68
+  orig: 61, 70
+  offset: 1, 1
+  index: -1
+Lotus/Layer 6
+  rotate: true
+  xy: 390, 5
+  size: 69, 63
+  orig: 69, 63
+  offset: 0, 0
+  index: -1
+Lotus/Layer 7
+  rotate: false
+  xy: 420, 138
+  size: 81, 64
+  orig: 83, 66
+  offset: 1, 1
+  index: -1
+Lotus/Layer 8
+  rotate: false
+  xy: 420, 76
+  size: 81, 60
+  orig: 83, 62
+  offset: 1, 1
+  index: -1
+Lotus/Layer 9
+  rotate: false
+  xy: 420, 204
+  size: 84, 63
+  orig: 86, 65
+  offset: 1, 1
+  index: -1
+Lotus/light_dust
+  rotate: false
+  xy: 260, 193
+  size: 79, 74
+  orig: 79, 74
+  offset: 0, 0
+  index: -1
+hit_red
+  rotate: false
+  xy: 2, 11
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1

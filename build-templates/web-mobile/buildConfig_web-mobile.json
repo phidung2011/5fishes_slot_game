@@ -1,0 +1,46 @@
+{
+  "name": "fivekoi_fe",
+  "platform": "web-mobile",
+  "buildPath": "project://build",
+  "debug": true,
+  "md5Cache": true,
+  "sourceMaps": true,
+  "replaceSplashScreen": true,
+  "mainBundleCompressionType": "merge_dep",
+  "mainBundleIsRemote": false,
+  "mergeStartScene": false,
+  "experimentalEraseModules": false,
+  "compressTexture": true,
+  "packAutoAtlas": true,
+  "startScene": "0e534236-e7ea-431c-bf9e-81ce90e14f70",
+  "scenes": [
+    {
+      "url": "db://assets/cc-release-slot/slot-9920/g9920.scene",
+      "uuid": "0e534236-e7ea-431c-bf9e-81ce90e14f70",
+      "inBundle": false
+    },
+    {
+      "url": "db://assets/cc30-asset-bundle-portrait/cc30-fivekoi-9920/bundle9920/res/scene/g9920P.scene",
+      "uuid": "473e4a0e-07bf-4aa9-970d-48c3dcc05b56",
+      "inBundle": true
+    }
+  ],
+  "outputName": "web-mobile",
+  "packages": {
+    "web-mobile": {
+      "orientation": "portrait",
+      "polyfills": {
+        "asyncFunctions": true
+      },
+      "__version__": "1.0.0"
+    },
+    "cocos-service": {
+      "configID": "5b7412",
+      "services": [],
+      "__version__": "3.0.2"
+    }
+  },
+  "__version__": "1.3.1",
+  "cocos-version": "3.4.2"
+
+}

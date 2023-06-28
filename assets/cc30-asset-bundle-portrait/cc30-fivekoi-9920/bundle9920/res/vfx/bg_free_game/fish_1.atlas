@@ -1,0 +1,118 @@
+
+fish_1.png
+size: 938,426
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fx_wave/100
+  rotate: false
+  xy: 363, 17
+  size: 117, 202
+  orig: 128, 224
+  offset: 0, 7
+  index: -1
+fx_wave/102
+  rotate: false
+  xy: 1, 216
+  size: 124, 209
+  orig: 128, 224
+  offset: 1, 0
+  index: -1
+fx_wave/104
+  rotate: false
+  xy: 825, 1
+  size: 112, 197
+  orig: 128, 224
+  offset: 4, 10
+  index: -1
+fx_wave/106
+  rotate: false
+  xy: 596, 26
+  size: 114, 199
+  orig: 128, 224
+  offset: 3, 7
+  index: -1
+fx_wave/108
+  rotate: false
+  xy: 481, 20
+  size: 114, 201
+  orig: 128, 224
+  offset: 3, 3
+  index: -1
+fx_wave/110
+  rotate: false
+  xy: 245, 220
+  size: 116, 205
+  orig: 128, 224
+  offset: 2, 0
+  index: -1
+fx_wave/112
+  rotate: false
+  xy: 362, 220
+  size: 116, 205
+  orig: 128, 224
+  offset: 2, 0
+  index: -1
+fx_wave/114
+  rotate: false
+  xy: 126, 219
+  size: 118, 206
+  orig: 128, 224
+  offset: 1, 0
+  index: -1
+fx_wave/116
+  rotate: false
+  xy: 125, 8
+  size: 118, 207
+  orig: 128, 224
+  offset: 1, 0
+  index: -1
+fx_wave/118
+  rotate: false
+  xy: 479, 222
+  size: 114, 203
+  orig: 128, 224
+  offset: 6, 5
+  index: -1
+fx_wave/120
+  rotate: true
+  xy: 594, 314
+  size: 111, 206
+  orig: 128, 224
+  offset: 9, 2
+  index: -1
+fx_wave/122
+  rotate: false
+  xy: 711, 25
+  size: 113, 200
+  orig: 128, 224
+  offset: 8, 7
+  index: -1
+fx_wave/124
+  rotate: false
+  xy: 244, 14
+  size: 118, 204
+  orig: 128, 224
+  offset: 4, 4
+  index: -1
+fx_wave/126
+  rotate: false
+  xy: 1, 8
+  size: 123, 207
+  orig: 128, 224
+  offset: 0, 1
+  index: -1
+koi/koi_1
+  rotate: false
+  xy: 829, 199
+  size: 78, 226
+  orig: 78, 226
+  offset: 0, 0
+  index: -1
+koi/koi_1_shadow
+  rotate: true
+  xy: 594, 226
+  size: 87, 234
+  orig: 87, 234
+  offset: 0, 0
+  index: -1
